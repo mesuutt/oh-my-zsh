@@ -1,2 +1,2 @@
 # Execute as root 
-sudu() { su -c $@}
+sudu() { su -c "'$@'";};
