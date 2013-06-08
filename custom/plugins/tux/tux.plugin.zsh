@@ -6,9 +6,7 @@ sudu() { su -c "'$@'";};
 # Aliases
 alias h='howdoi'
 alias http='noglob http'
-tup() {
-    source ~/.tmux/envsetups/${1}.sh;
-};
+alias git='noglob git'
 
 # teamocil: tmux session manager
 export TEAMOCIL_PATH=$TMUX_PATH/teamocil/
