@@ -1,4 +1,3 @@
-TMUX_PATH=~/.tmux
 
 # Execute as root 
 sudu() { su -c "'$@'";};
@@ -7,10 +6,6 @@ sudu() { su -c "'$@'";};
 alias h='howdoi'
 alias http='noglob http'
 alias git='noglob git'
-
-# teamocil: tmux session manager
-export TEAMOCIL_PATH=$TMUX_PATH/teamocil/
-compctl -g '~/.tmux/teamocil/*(:t:r)' teamocil
 
 
 # Search in history not only command, all words. Look: http://superuser.com/questions/417627/oh-my-zsh-history-completion
