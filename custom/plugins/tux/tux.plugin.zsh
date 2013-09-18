@@ -1,13 +1,9 @@
-
-# Execute as root 
-sudu() { su -c "'$@'";};
-
-# Aliases
-alias h='howdoi'
 alias http='noglob http'
 alias git='noglob git'
-alias c='clear'
+alias find='noglob find'
 
+alias c='clear'
+alias h='howdoi'
 
 # Search in history not only command, all words. Look: http://superuser.com/questions/417627/oh-my-zsh-history-completion
 # If doesn't work for the up or down arrows, press <ctrl-v><KEY (e.g., up arrow)>
