@@ -3,6 +3,7 @@ alias git='noglob git'
 alias find='noglob find'
 alias h='howdoi'
 alias dmesgc='dmesg | ccze -A'
+alias curl='noglob curl'
 
 # Backup file before edit
 vims() { cp {,`date +%Y%m%d`_}$*; vim "$*"; }
